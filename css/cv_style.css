@@ -1,0 +1,56 @@
+/*-----------------------------全局样式-------------------------------------*/
+*{margin:10px;padding:0}
+li{list-style:none}
+img{vertical-align:top;border:none}
+legend{display:none}
+fieldset{border:none}
+a{text-decoration:none}
+a:hover,a:active{text-decoration:none}
+.clear {clear: both; }
+/*--------------------------------主控件----------------------------------*/
+.main{position:absolute;background:#FFFFFF no-repeat;width:90% ;height:90% auto;border:2px solid #191970;}
+/*--------------------------------头部----------------------------------*/
+.head{background:#191970 no-repeat;color:white;height:150px;width:100% auto;z-index:3}
+/*--------------------------------照片----------------------------------*/
+.photo{
+		float: right;
+		width: 120px;
+		height: 150px;
+		z-index:100;
+	}
+.board{
+		float: right;
+		width: 20px;
+		height: 150px;
+		overflow: hidden;
+	}
+.zoomImage {
+	z-index:100;
+	margin:10px;
+  width: 80%;
+  height: 0;
+  padding-top: 100%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+/*---------------------------------------标题---------------------------------*/
+#container{
+    width:100%;
+    margin: 10 ;
+    overflow-x: hidden;
+    position: relative;
+	color:#191970;
+	
+}
+/*----------------------------------------内容--------------------------------*/
+#content{
+	background:url(../images/dot.png) no-repeat;
+    width:100%;
+    margin: 10 ;
+    overflow-x: hidden;
+    position: relative;
+}

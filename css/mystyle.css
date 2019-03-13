@@ -1,0 +1,25 @@
+/*-----------------------------全局样式-------------------------------------*/
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top;border:none}
+legend{display:none}
+fieldset{border:none}
+a{text-decoration:none}
+a:hover,a:active{text-decoration:none}
+.clear {clear: both; }
+/*-----------------------------登录页面-------------------------------------*/
+body{font:12px/1.5 Microsoft YaHei;position:relative;margin:0 auto;color:#000}
+#container{
+    width:800px;
+	height:550px;
+    box-shadow: 0 0 15px #999999;
+    margin: 10px auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.login{background:#FFFFFF url(../images/mybg.png)no-repeat center center ;width:800px;height:550px;}
+.login_main{position:relative; background:url(../images/mylogin.png) no-repeat; margin:0px 200px 0;width:378px;height:452px;}
+.login_btn{position:absolute;background:url(../images/signin.png)no-repeat;margin:380px 48px 0;width:282px;height:44px;}
+.login_btn2{position:absolute;background:url(../images/signin2.png)no-repeat;margin:380px 48px 0;width:282px;height:44px;}
+.user_text{position:absolute;background:url(../images/usn.png)no-repeat;top:63%;left:27%;width:62px;height:10px;}
+.pwd_text{position:absolute;background:url(../images/pwd.png)no-repeat;top:75%;left:27%;width:57px;height:8px;}
